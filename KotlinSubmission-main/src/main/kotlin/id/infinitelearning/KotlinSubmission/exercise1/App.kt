@@ -15,7 +15,7 @@ fun myProfile() {
 
 fun groupDetail(groupId: Int, groupMember: List<Any>, session: String): Any {
     val idGrup = 6
-    val anggotaGrup = listOf("Mifta", "Mahsha", "April", "Mitha", "Sutan")
+    val anggotaGrup = listOf("Mifta137", "Mahsha", "April", "Mitha", "Sutan")
     val sesi = "Afternoon"
 
     return arrayOf(idGrup, anggotaGrup, sesi)
