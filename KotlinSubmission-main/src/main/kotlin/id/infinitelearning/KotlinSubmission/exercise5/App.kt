@@ -1,26 +1,10 @@
 package id.infinitelearning.KotlinSubmission.exercise5
 
-class hHero {
-    var nm: String = ""
-    var usia: Int = 0
-    var tinggi: Int = 0
-
-    fun setProfile(nm: String, usia: Int, tinggi: Int) {
-        this.nm = nm
-        this.usia = usia
-        this.tinggi = tinggi
-    }
-
-    fun profile() {
-        println("Nama: $nm")
-        println("Usia: $usia")
-        println("Tinggi: $tinggi")
-    }
-}
-
 fun main() {
     val hero = hHero()
     hero.setProfile("Miftahur Rohman", 20, 165)
+    
+    hero.profile()
 
     val group1 = listOf(
         "jalan", "jalan", "jalan", "jalan", "jalan",
