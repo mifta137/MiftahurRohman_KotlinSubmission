@@ -13,10 +13,10 @@ fun myProfile() {
 
 }
 
-fun groupDetail(groupId: Int, groupMember: List<Any>, session: String): Any {
-    val idGrup = 6
-    val anggotaGrup = listOf("Mifta137", "Mahsha", "April", "Mitha", "Sutan")
-    val sesi = "Afternoon"
+fun groupDetail(idGrup: Int, anggotaGrup: List<Any>, sesi: String): Any {
+    println("ID Grup: $idGrup")
+    println("Anggota Grup: $anggotaGrup")
+    println("Sesi: $sesi")
 
     return arrayOf(idGrup, anggotaGrup, sesi)
 }
@@ -42,10 +42,10 @@ fun main() {
     myProfile()
 
     val myGroup = myGroup()
-    println("My Group is: $myGroup")
+    println("Grupku adalah: $myGroup")
 
     val totalMember = totalMember()
-    println("Total Member group + Mentor: $totalMember")
+    println("Total Anggota Grup + Mentor: $totalMember")
 
     groupDetail(6, listOf("Mifta", "Mahsha", "April", "Mitha", "Sutan"), "Afternonon")
 
