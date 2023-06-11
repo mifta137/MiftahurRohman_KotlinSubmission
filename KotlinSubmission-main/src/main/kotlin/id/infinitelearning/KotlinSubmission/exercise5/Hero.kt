@@ -65,18 +65,3 @@ class Hero {
         health += 1
     }
 }
-
-fun main() {
-    val hero = Hero()
-    hero.setProfile("Miftahur Rohman", 20, 165)
-
-    hero.jalan()
-    hero.lari()
-    hero.makan()
-    hero.minum()
-    hero.lompat()
-    hero.duduk()
-
-    hero.profile()
-
-}
